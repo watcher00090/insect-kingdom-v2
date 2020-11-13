@@ -115,35 +115,22 @@ padding-bottom:50%;
 #hexGrid{
   padding-bottom: 4.4%
 }
-.hex {
-  width: 25%; /* = 100 / 4 */
-}
-/*.hex:nth-child(9n+6){*/ /* first hexagon of even rows */
-/*  margin-left:10%;*/  /* = width of .hex / 2  to indent even rows */
-/*}*/
-
-.hex:nth-child(1) {
-  margin-left: 37.5%;
-  margin-right: 37.5%;
+.hex { /* 19 hexagons, max row size has 4 hexagons */
+  width: 20%; /* = 100 / 5 */
 }
 
-.hex:nth-child(2) {
-  margin-left: 25%;
-  margin-right: 0%;
+.hex:nth-child(1), .hex:nth-child(17) { 
+  margin-left: 20%;
 }
 
-.hex:nth-child(3) {
-  margin-left: 0%;
-  margin-right: 25%;
+.hex:nth-child(3), .hex:nth-child(20) {
+  margin-right: 20%;
 }
 
-.hex:nth-child(4) {
-  margin-left: 12.5%;
-  margin-right: 0%;
-
+.hex:nth-child(4), .hex:nth-child(13) {
+  margin-left: 10%;
 }
 
-.hex:nth-child(6) {
-  margin-left: 0%;
-  margin-right: 12.5%;
+.hex:nth-child(7), .hex:nth-child(16) {
+  margin-right: 10%;
 }
