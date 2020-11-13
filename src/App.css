@@ -1,3 +1,12 @@
+
+.main-title {
+  text-align: center;
+  font-size: 200px;
+  margin-bottom: 20px;
+}
+
+/* STYLING FOR HEXAGONAL BOARD */
+
 * {
   margin: 0;
   padding: 0;
@@ -134,3 +143,5 @@ padding-bottom:50%;
 .hex:nth-child(7), .hex:nth-child(16) {
   margin-right: 10%;
 }
+
+/* END STYLING FOR HEXAGONAL BOARD */

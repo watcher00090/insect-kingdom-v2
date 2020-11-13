@@ -4,7 +4,8 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-          <ul id="hexGrid">
+    <h1 className="main-title">Insect Kingdom</h1>
+    <ul id="hexGrid">
       <li class="hex">
         <div class="hexIn">
           <a class="hexLink" href="#">
