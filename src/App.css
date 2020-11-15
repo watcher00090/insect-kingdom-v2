@@ -76,6 +76,14 @@ margin: 0 auto;
         transform: rotate3d(0,0,0,0deg);
 }
 
+.hex .piece-image {
+  width: 80%;
+}
+
+.hex .ant-piece-image {
+  width: 60%;
+}
+
 .hex h1, .hex p {
 width: 100%;
 padding: 5%;

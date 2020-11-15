@@ -27,7 +27,7 @@ function App() {
         </Hextile> 
         <Hextile />
         <Hextile>          
-          <Piece image={antPieceImg} />
+          <Piece image={antPieceImg} isAntPiece={true}/>
         </Hextile>
         <Hextile />
         <Hextile />
