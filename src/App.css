@@ -7,6 +7,15 @@
 
 /* PIECES STYLING */
 
+.hex .player-one {
+  fill: red;
+}
+
+.hex .player-two {
+  fill: blue;
+}
+
+
 /* STYLING FOR HEXAGONAL BOARD */
 
 * {

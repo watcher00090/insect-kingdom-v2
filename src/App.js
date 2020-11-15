@@ -22,23 +22,23 @@ function App() {
       <h1 className="main-title">Insect Kingdom</h1>
       <Board>
         <Hextile>
-          <Piece image={beePieceImg} player="player-one"/>
+          <Piece type="bee" player="player-one"/>
         </Hextile>
         <Hextile />
         <Hextile />
         <Hextile />
         <Hextile />
         <Hextile>
-          <Piece image={spiderPieceImg} player="player-two" />
+          <Piece type="spider" player="player-two" />
         </Hextile> 
         <Hextile />
         <Hextile>          
-          <Piece image={antPieceImg} isAntPiece={true} player="player-one" />
+          <Piece type="ant" isAntPiece={true} player="player-one" />
         </Hextile>
         <Hextile />
         <Hextile />
         <Hextile>
-          <Piece image={beePieceImg} player="player-two"/>
+          <Piece type="bee" player="player-two"/>
         </Hextile>
         <Hextile />
         <Hextile />
