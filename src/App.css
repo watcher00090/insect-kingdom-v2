@@ -5,6 +5,8 @@
   margin-bottom: 20px;
 }
 
+/* PIECES STYLING */
+
 /* STYLING FOR HEXAGONAL BOARD */
 
 * {
@@ -62,6 +64,13 @@ outline:1px solid transparent; /* fix for jagged edges in FF on hover transition
   -webkit-transform: skewY(-30deg) rotate3d(0,0,1,60deg);
       -ms-transform: skewY(-30deg) rotate3d(0,0,1,60deg);
           transform: skewY(-30deg) rotate3d(0,0,1,60deg);
+}
+
+.hex svg {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
 }
 
 /*** HEX CONTENT **********************************************************************/

@@ -7,32 +7,38 @@ import Piece from "./components/Piece"
 import beePieceImg from "./bee-svg.svg"
 import spiderPieceImg from "./spider-svg.svg"
 import antPieceImg from "./ant-svg.svg"
+import BeeSvg from "./components/BeeSvg"
+import AntSvg from "./components/AntSvg"
+import SpiderSvg from "./components/SpiderSvg"
 
 
 function App() {
 
   return(
     <>
+    <BeeSvg fill="green" />
+    <AntSvg />
+    <SpiderSvg />
       <h1 className="main-title">Insect Kingdom</h1>
       <Board>
         <Hextile>
-          <Piece image={beePieceImg} />
+          <Piece image={beePieceImg} player="player-one"/>
         </Hextile>
         <Hextile />
         <Hextile />
         <Hextile />
         <Hextile />
         <Hextile>
-          <Piece image={spiderPieceImg} />
+          <Piece image={spiderPieceImg} player="player-two" />
         </Hextile> 
         <Hextile />
         <Hextile>          
-          <Piece image={antPieceImg} isAntPiece={true}/>
+          <Piece image={antPieceImg} isAntPiece={true} player="player-one" />
         </Hextile>
         <Hextile />
         <Hextile />
         <Hextile>
-          <Piece image={beePieceImg} />
+          <Piece image={beePieceImg} player="player-two"/>
         </Hextile>
         <Hextile />
         <Hextile />
